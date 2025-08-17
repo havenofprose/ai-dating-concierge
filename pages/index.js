@@ -2,8 +2,8 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Send, Heart, User, MapPin, Target, Compass, Shield, Star, Activity, Music, Camera, Coffee } from 'lucide-react';
 
 // Database configuration - you'll replace these with your Supabase details
-const SUPABASE_URL = 'YOUR_SUPABASE_URL';
-const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
+const SUPABASE_URL = 'https://gkpjzmzfheggiqmoewxe.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdrcGp6bXpmaGVnZ2lxbW9ld3hlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTUzNDgxMzgsImV4cCI6MjA3MDkyNDEzOH0.XnQYS9uh1uZ20No8EKT1S9ebpi82Ji__t0GtW1bwrj0';
 
 // Simple database save function
 const saveToDatabase = async (profileData) => {
